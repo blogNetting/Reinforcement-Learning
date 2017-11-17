@@ -1,0 +1,3 @@
+Dependencias
+============
+pip / python-pip			sudo apt install python-pip

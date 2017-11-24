@@ -9,5 +9,3 @@ networkx				pip install networkx
 pylab
 Matplotlib				sudo apt-get install python-libxml2  python-matplotlib ipython python-scipy python-tk
 ipython
-
-

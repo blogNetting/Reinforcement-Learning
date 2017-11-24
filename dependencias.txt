@@ -1,3 +1,13 @@
 Dependencias
 ============
 pip / python-pip			sudo apt install python-pip
+
+numpy					pip install numpy
+
+networkx				pip install networkx
+
+pylab
+Matplotlib				sudo apt-get install python-libxml2  python-matplotlib ipython python-scipy python-tk
+ipython
+
+

@@ -35,6 +35,12 @@ class AgenteLector:
 		#return
 
 
+	def __calcular_recompensas(self, ganador, puerta, cambio):
+		# Completar #
+		pass
+		#return
+
+
 	def jugar(self, num_i, v=False):
 		aciertos = 0
 		porcentaje_acierto = 0.0

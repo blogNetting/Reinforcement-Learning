@@ -18,6 +18,7 @@ import sys
 from humano.jugador import Jugador
 from agente.aleatorio import AgenteAleatorio
 from agente.simple import AgenteSimple
+from agente.lector import AgenteLector
 
 
 def uso():

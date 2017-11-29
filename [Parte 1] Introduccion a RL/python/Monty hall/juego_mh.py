@@ -32,6 +32,7 @@ def uso():
 	print "\t\t  Posibles AGENTES:"
 	print "\t\t\t -1: Agente aleatorio."
 	print "\t\t\t -2: Agente simple."
+	print "\t\t\t -3: Agente lector."
 	print"\n"
 	exit(1)
 
@@ -50,9 +51,10 @@ else:
 	elif ("-a" in sys.argv): 
 		p = sys.argv.index("-a")
 		agente = sys.argv[p+1]
-		if agente not in ["-1", "-2"]: uso()
+		if agente not in ["-1", "-2", "-3"]: uso()
 		iteraciones = int(sys.argv[p+2])
 		# Agente Aleatorio
 		if (agente == "-1"): AgenteAleatorio().jugar(iteraciones, v=verbose)
 		elif (agente == "-2"): AgenteSimple().jugar(iteraciones, v=verbose)
+		elif (agente == "-3"): AgenteLector().jugar(iteraciones, v=verbose)
 	else: uso()

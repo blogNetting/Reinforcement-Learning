@@ -25,7 +25,7 @@ from modulos.estadisticas import mostrar_estadistica, calcular_estadistica
 class AgenteSimple:
 	
 	def __init__(self):
-		self.s = [0, 0, 0]
+		self.s = [0.0, 0.0, 0.0]
 		self.a_puertas = [[0,0], [0,0], [0,0]]
 		self.recompensa = [-1, 1]
 		
@@ -39,19 +39,19 @@ class AgenteSimple:
 		if (a[0]>a[1]): return 0
 		if (a[1]>a[0]): return 1
 		# En el caso de empate azar.
-		return bool(randint(0, 1))
+		return randint(0, 1)
 
 
 	def __calcular_recompensas(self, ganador, puerta, cambio):
 		self.a_puertas[puerta][cambio] += self.recompensa[int(ganador)]
-		self.s[puerta] = max(self.a_puertas[puerta])
+		self.s[puerta] = (max(self.a_puertas[puerta]))
 	
 	
 	def __mostrar_tablas(self):
 		for i in range(len(self.a_puertas)):
-			print "\t           | " + "Sin cambio: " + str(self.a_puertas[i][0])
-			print "\t Puerta " + str(i) + " < " + "R: " + str(self.s[i])
-			print "\t           | " + "Con Cambio: " + str(str(self.a_puertas[i][1]))
+			print "\t\t\t           | " + "Sin cambio: " + str(self.a_puertas[i][0])
+			print "\t\t\t Puerta " + str(i) + " < " + "R: " + str(self.s[i])
+			print "\t\t\t           | " + "Con Cambio: " + str(str(self.a_puertas[i][1]))
 			print
 		
 		

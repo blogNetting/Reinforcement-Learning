@@ -8,7 +8,10 @@ class MontyHall:
 		
 	def __esconder_coche(self):
 		serie = [3,1,2,3,2,1,1,3,2,1,2,3,2,3,1,2,1,3,3,2,1,1,3,2,2,1,3]
+		#serie = [3,3,2,3,2,3,3,3,2,1,2,3,2,3,3,2,3,3,3,2,3,1,3,2,2,1,3]	-> PoC - Numeros calientes.
+		#return 3															-> PoC - Cambiando las reglas.
 		return serie[randint(0, len(serie)-1)]
+		
 
 
 	def __inicializar_juego(self):

@@ -4,7 +4,7 @@
 *"Lo primero que hay que hacer es aprender a aprender".*
 
 ## **Autor:**
-  * - Enrique Andrade González - NeTTinG.
+  * Enrique Andrade González - NeTTinG.
   - Ingeniero informático.
   - Perito informático forense judicial.
   - [blog Netting](http://netting.wordpress.com/ "blog.netting.es")

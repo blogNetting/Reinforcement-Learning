@@ -1,3 +1,5 @@
+![RL](https://github.com/blogNetting/Reinforcement-Learning/blob/master/img/logo.png "").
+
 # [Taller] - Reinforcement Learning.
 *"Lo primero que hay que hacer es aprender a aprender".*
 

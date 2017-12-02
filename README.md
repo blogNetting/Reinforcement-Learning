@@ -4,7 +4,7 @@
 *"Lo primero que hay que hacer es aprender a aprender".*
 
 ## **Autor:**
-  * Enrique Andrade González - NeTTinG.
+  - Enrique Andrade González - NeTTinG.
   - Ingeniero informático.
   - Perito informático forense judicial.
   - [blog Netting](http://netting.wordpress.com/ "blog.netting.es")
@@ -17,4 +17,4 @@
   
 ## **Índice**
 
--> *[PARTE I] - Introducción al RL.*
+-> *[ [PARTE I - Introducción al RL. ](https://github.com/blogNetting/Reinforcement-Learning/blob/master/%5BParte%201%5D%20Introduccion%20a%20RL/Introducci%C3%B3n%20RL.pdf "blog.netting.es")

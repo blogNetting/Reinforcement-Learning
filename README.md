@@ -6,4 +6,5 @@
 
 
 **Índice**
-              -> *[PARTE I] - Introducción al RL.*
+
+-> *[PARTE I] - Introducción al RL.*

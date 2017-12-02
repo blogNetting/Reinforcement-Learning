@@ -1,4 +1,4 @@
-![RL](https://github.com/blogNetting/Reinforcement-Learning/blob/master/img/logo.png "").
+![RL](https://github.com/blogNetting/Reinforcement-Learning/blob/master/img/logo.png "http://blog.netting.es").
 
 # [Taller] - Reinforcement Learning.
 *"Lo primero que hay que hacer es aprender a aprender".*

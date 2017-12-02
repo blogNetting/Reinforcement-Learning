@@ -17,4 +17,4 @@
   
 ## **Índice**
 
--> *[ [PARTE I - Introducción al RL. ](https://github.com/blogNetting/Reinforcement-Learning/blob/master/%5BParte%201%5D%20Introduccion%20a%20RL/Introducci%C3%B3n%20RL.pdf "blog.netting.es")
+-> * [ [PARTE I] - Introducción al RL. ](https://github.com/blogNetting/Reinforcement-Learning/blob/master/%5BParte%201%5D%20Introduccion%20a%20RL/Introducci%C3%B3n%20RL.pdf "blog.netting.es")
